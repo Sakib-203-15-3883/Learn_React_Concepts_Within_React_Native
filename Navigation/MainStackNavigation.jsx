@@ -5,6 +5,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Main from '../screens/Main';
 import UseState from '../screens/reactHooks/UseState';
 import UseEffect from '../screens/reactHooks/UseEffect';
+import UseEffectAdvanced from '../screens/reactHooks/UseEffectAdvanced';
 
 const MainStackNavigation = () => {
   const Stack = createNativeStackNavigator();
@@ -16,6 +17,7 @@ const MainStackNavigation = () => {
       <Stack.Screen name="Main" component={Main} />
       <Stack.Screen name="UseState" component={UseState} />
       <Stack.Screen name="UseEffect" component={UseEffect} />
+      <Stack.Screen name="UseEffectAdvanced" component={UseEffectAdvanced} />
     </Stack.Navigator>
   );
 };

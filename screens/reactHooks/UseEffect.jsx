@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
     color: '#888',
   },
   centered: {
-    flex: 1,
+    
     justifyContent: 'center',
     alignItems: 'center',
   },

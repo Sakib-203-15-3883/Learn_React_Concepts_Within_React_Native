@@ -19,8 +19,8 @@ const Main = () => {
    
     {
       id:3,
-      title:"Learn UseState",
-      screen:"UseState"
+      title:"Learn UseEffect Advanced [ Animation] ",
+      screen:"UseEffectAdvanced"
     },
     {
       id:4,
