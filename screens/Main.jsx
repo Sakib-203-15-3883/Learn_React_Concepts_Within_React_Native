@@ -24,8 +24,8 @@ const Main = () => {
     },
     {
       id:4,
-      title:"Learn UseEffect",
-      screen:"UseEffect"
+      title:"Basic Search implementation",
+      screen:"BasicSearch"
     },
     {
       id:5,
